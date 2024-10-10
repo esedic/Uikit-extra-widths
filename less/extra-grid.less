@@ -1,0 +1,109 @@
+// Name:         Width extended
+// Description:  Extra widths, from 7 to 16
+//
+// Component:   `uk-child-width-*`
+//              `uk-width-*`
+//
+//
+// ========================================================================
+
+
+/* Variables (obsolete in production)
+ ========================================================================== */
+@uk-breakpoint-s: 640px;
+@uk-breakpoint-m: 960px;
+@uk-breakpoint-l: 1200px;
+@uk-breakpoint-xl: 1600px;
+
+
+/* ========================================================================
+   Component: Width extended
+ ========================================================================== */
+
+
+/* Mixins
+ ========================================================================== */
+
+/* Phone landscape and bigger */
+@media (min-width: @uk-breakpoint-s) {
+  each(range(7%, 16%, 1), {
+    @adjustedIndex: (@index + 6); // Offset index by 5
+    .uk-child-width-1-@{adjustedIndex}\s {
+      width: calc(100% / @adjustedIndex);
+    }  
+  });
+}
+
+@media (min-width: @uk-breakpoint-s) {
+  each(range(7%, 16%, 1), {
+    @adjustedIndex: (@index + 6); // Offset index by 5
+    .uk-child-width-1-@{adjustedIndex}\s>:not([class*=uk-width]) {
+      flex: initial;
+    }
+  });
+}
+
+/* Tablet landscape and bigger */
+@media (min-width: @uk-breakpoint-m) {
+  each(range(7%, 16%, 1), {
+    @adjustedIndex: (@index + 6); // Offset index by 5
+    .uk-child-width-1-@{adjustedIndex}\m {
+      width: calc(100% / @adjustedIndex);
+    }
+  });
+}
+
+@media (min-width: @uk-breakpoint-m) {
+  each(range(7%, 16%, 1), {
+    @adjustedIndex: (@index + 6); // Offset index by 5
+    .uk-child-width-1-@{adjustedIndex}\m>:not([class*=uk-width]) {
+      flex: initial;
+    }
+  });
+}
+
+/* Desktop and bigger */
+@media (min-width: @uk-breakpoint-l) {
+  each(range(7%, 16%, 1), {
+    @adjustedIndex: (@index + 6); // Offset index by 5
+    .uk-child-width-1-@{adjustedIndex}\l {
+      width: calc(100% / @adjustedIndex);
+    }
+  });
+}
+
+@media (min-width: @uk-breakpoint-l) {
+  each(range(7%, 16%, 1), {
+    @adjustedIndex: (@index + 6); // Offset index by 5
+    .uk-child-width-1-@{adjustedIndex}\l>:not([class*=uk-width]) {
+      flex: initial;
+    }
+  });
+}
+
+/* Large screen and bigger */
+@media (min-width: @uk-breakpoint-xl) {
+  each(range(7%, 16%, 1), {
+    @adjustedIndex: (@index + 6); // Offset index by 5
+    .uk-child-width-1-@{adjustedIndex}\xl {
+      width: calc(100% / @adjustedIndex);
+    }
+  });
+}
+
+@media (min-width: @uk-breakpoint-xl) {
+  each(range(7%, 16%, 1), {
+    @adjustedIndex: (@index + 6); // Offset index by 5
+    .uk-child-width-1-@{adjustedIndex}\xl>:not([class*=uk-width]) {
+      flex: initial;
+    }
+  });
+}
+
+
+// Hooks
+// ========================================================================
+
+.hook-width-ex-misc;
+
+.hook-width-ex-misc() {}

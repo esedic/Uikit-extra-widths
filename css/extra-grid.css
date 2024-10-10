@@ -1,0 +1,347 @@
+/* Variables (obsolete in production)
+ ========================================================================== */
+/* ========================================================================
+   Component: Width extended
+ ========================================================================== */
+/* Mixins
+ ========================================================================== */
+/* Phone landscape and bigger */
+@media (min-width: 640px) {
+  .uk-child-width-1-7\s {
+    width: calc(100% / 7);
+  }
+  .uk-child-width-1-8\s {
+    width: calc(100% / 8);
+  }
+  .uk-child-width-1-9\s {
+    width: calc(100% / 9);
+  }
+  .uk-child-width-1-10\s {
+    width: calc(100% / 10);
+  }
+  .uk-child-width-1-11\s {
+    width: calc(100% / 11);
+  }
+  .uk-child-width-1-12\s {
+    width: calc(100% / 12);
+  }
+  .uk-child-width-1-13\s {
+    width: calc(100% / 13);
+  }
+  .uk-child-width-1-14\s {
+    width: calc(100% / 14);
+  }
+  .uk-child-width-1-15\s {
+    width: calc(100% / 15);
+  }
+  .uk-child-width-1-16\s {
+    width: calc(100% / 16);
+  }
+}
+@media (min-width: 640px) {
+  .uk-child-width-1-7\s > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-8\s > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-9\s > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-10\s > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-11\s > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-12\s > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-13\s > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-14\s > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-15\s > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-16\s > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+}
+/* Tablet landscape and bigger */
+@media (min-width: 960px) {
+  .uk-child-width-1-7\m {
+    width: calc(100% / 7);
+  }
+  .uk-child-width-1-8\m {
+    width: calc(100% / 8);
+  }
+  .uk-child-width-1-9\m {
+    width: calc(100% / 9);
+  }
+  .uk-child-width-1-10\m {
+    width: calc(100% / 10);
+  }
+  .uk-child-width-1-11\m {
+    width: calc(100% / 11);
+  }
+  .uk-child-width-1-12\m {
+    width: calc(100% / 12);
+  }
+  .uk-child-width-1-13\m {
+    width: calc(100% / 13);
+  }
+  .uk-child-width-1-14\m {
+    width: calc(100% / 14);
+  }
+  .uk-child-width-1-15\m {
+    width: calc(100% / 15);
+  }
+  .uk-child-width-1-16\m {
+    width: calc(100% / 16);
+  }
+}
+@media (min-width: 960px) {
+  .uk-child-width-1-7\m > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-8\m > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-9\m > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-10\m > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-11\m > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-12\m > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-13\m > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-14\m > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-15\m > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-16\m > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+}
+/* Desktop and bigger */
+@media (min-width: 1200px) {
+  .uk-child-width-1-7\l {
+    width: calc(100% / 7);
+  }
+  .uk-child-width-1-8\l {
+    width: calc(100% / 8);
+  }
+  .uk-child-width-1-9\l {
+    width: calc(100% / 9);
+  }
+  .uk-child-width-1-10\l {
+    width: calc(100% / 10);
+  }
+  .uk-child-width-1-11\l {
+    width: calc(100% / 11);
+  }
+  .uk-child-width-1-12\l {
+    width: calc(100% / 12);
+  }
+  .uk-child-width-1-13\l {
+    width: calc(100% / 13);
+  }
+  .uk-child-width-1-14\l {
+    width: calc(100% / 14);
+  }
+  .uk-child-width-1-15\l {
+    width: calc(100% / 15);
+  }
+  .uk-child-width-1-16\l {
+    width: calc(100% / 16);
+  }
+}
+@media (min-width: 1200px) {
+  .uk-child-width-1-7\l > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-8\l > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-9\l > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-10\l > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-11\l > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-12\l > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-13\l > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-14\l > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-15\l > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-16\l > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+}
+/* Large screen and bigger */
+@media (min-width: 1600px) {
+  .uk-child-width-1-7\xl {
+    width: calc(100% / 7);
+  }
+  .uk-child-width-1-8\xl {
+    width: calc(100% / 8);
+  }
+  .uk-child-width-1-9\xl {
+    width: calc(100% / 9);
+  }
+  .uk-child-width-1-10\xl {
+    width: calc(100% / 10);
+  }
+  .uk-child-width-1-11\xl {
+    width: calc(100% / 11);
+  }
+  .uk-child-width-1-12\xl {
+    width: calc(100% / 12);
+  }
+  .uk-child-width-1-13\xl {
+    width: calc(100% / 13);
+  }
+  .uk-child-width-1-14\xl {
+    width: calc(100% / 14);
+  }
+  .uk-child-width-1-15\xl {
+    width: calc(100% / 15);
+  }
+  .uk-child-width-1-16\xl {
+    width: calc(100% / 16);
+  }
+}
+@media (min-width: 1600px) {
+  .uk-child-width-1-7\xl > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-8\xl > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-9\xl > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-10\xl > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-11\xl > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-12\xl > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-13\xl > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-14\xl > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-15\xl > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+  .uk-child-width-1-16\xl > :not([class*=uk-width]) {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+  }
+}
